@@ -1,6 +1,5 @@
-from dataEEG import Manual
+from ..dataEEG import Manual
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
