@@ -126,15 +126,15 @@ def cross_zero(data):
               pass
     return {'cross_zero': flag.astype(int)}
 
-    
 
-print(get_basics(split_data), get_sample_entropy(split_data), cross_zero(split_data))
-
+# print(get_basics(split_data), get_sample_entropy(split_data), cross_zero(split_data))
 
 
-'''
+
+
 #画图
 ###################################################################################################################
+def figure(data):
     fig1 = plt.figure()                             #创建画图对象，开始画图
     ax1 = fig1.add_subplot(211)
                     #在一张figure里面生成多张子图，将画布分割成2行1列， 图像画在从左到右从上到下的第1块
@@ -153,7 +153,7 @@ print(get_basics(split_data), get_sample_entropy(split_data), cross_zero(split_d
     plt.savefig(r'c:/data/20151026_%d.png' % (e))  #保存图像，设定保存路径并统一命名，%d处，十进制替换为e值
     plt.close('all')                                 #关闭绘图对象，释放绘图资源
 ##################################################################################################################
-'''
+
 
 
 
